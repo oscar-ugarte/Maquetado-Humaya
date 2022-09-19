@@ -1,3 +1,9 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
 /*Son estilos de la presentación*/
 #fondoBienvenida
 {
@@ -16,13 +22,122 @@
     color: white;
 }
 
+main
+{
+    background-color: #2f2f2f ;
+}
+
+/*Estilos de los Productos*/
+.titulo-productos
+{
+    text-align: center;
+    color: white;
+    background-color: #2f2f2f;
+    padding: 10px;
+}
+
+.contenedor-productos
+{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    color: whitesmoke;
+    flex-direction: row;
+}
+
+.contenedor-invertido
+{
+    flex-direction: row-reverse;
+}
+
+.image-producto
+{
+    width: 50%;
+}
+
+.items-productos
+{
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+}
+
+.colorClaro
+{
+    color: #d5ac8c;
+}
+
+.colorOscuro
+{
+    color: #2f2f2f;
+}
+
+.boton
+{
+    color: #d5ac8c;
+    border-color: #d5ac8c;
+    width: 40%;
+}
+
+.boton:hover
+{
+    color: #d5ac8c;
+    border-color: #d5ac8c;
+    width: 40%;
+    background-color: #2f2f2f ;
+}
+
+/*Producto Maizenea*/
+.boton
+{
+    color: #d5ac8c;
+    border-color: #d5ac8c;
+    width: 40%;
+}
+
+.boton:hover
+{
+    color: #d5ac8c;
+    border-color: #d5ac8c;
+    width: 40%;
+    background-color: #2f2f2f ;
+}
+
+.botonMaizena
+{
+    color: #2f2f2f;
+}
+
+.botonMaizena:hover
+{
+    background-color: black;
+    color: #d5ac8c;
+}
+
 /*Media query*/
-@media screen and (min-width:480px) and (max-width:940px) 
+@media screen and (min-width:375px) and (max-width:940px) 
 {
     .cardGenerales
     {
         color: black;
     }
+    /*Estilos de los productos*/
+    .contenedor-productos
+    {
+        flex-direction: column;
+    }
+
+    .image-producto
+    {
+        width: 100%;
+    }
+
+    .items-productos
+    {
+        margin: auto;
+        width: 100%;
+    }
+    
 }
 
 @media screen and (min-width:941px) and (max-width:1300px) 
