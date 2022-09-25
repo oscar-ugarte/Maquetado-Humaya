@@ -121,6 +121,14 @@ main
     color: #d5ac8c;
 }
 
+/*Iconos de mensaje de calidad*/
+/*Iconos*/
+.icono img
+{
+    width: 50%;
+}
+
+
 /*Media query*/
 @media screen and (min-width:375px) and (max-width:940px) 
 {
