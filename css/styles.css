@@ -88,6 +88,13 @@ main
 }
 
 /*Producto Maizenea*/
+.mensaje
+{
+    width: 50%;
+    text-align: left;
+    margin: auto 0;
+}
+
 .boton
 {
     color: #d5ac8c;
@@ -137,7 +144,23 @@ main
         margin: auto;
         width: 100%;
     }
-    
+
+    .mensaje h5
+    {
+        font-size: smaller;
+    }
+
+    .mensaje
+    {
+        text-align: center;
+        font-size: xx-small;
+    }
+
+    .botonMaizena
+    {
+        font-size: xx-small;
+        padding: 2px;
+    }
 }
 
 @media screen and (min-width:941px) and (max-width:1300px) 
